@@ -1,0 +1,347 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    width: 35%;
+    gap: 2em;
+    margin-right: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation ul{
+        flex-direction: column;
+    }
+}
+
+.navigation ul li a{
+    color: black;
+    padding: 0 .5em;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    text-decoration: underline;
+}
+
+/*button*/
+.navigation ul li button{
+    padding: 0.5em 1em;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.logo{
+    width: 40%;
+}
+.h1starter{
+    font-size: 40px;
+    margin-left: 20%;
+    position: absolute;
+    padding-top: 12em;
+}
+.h1starter p{
+    color: aqua;
+}
+.h1started{
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: yellow;
+}
+
+.h1started:hover{
+    text-decoration:underline ;
+}
+.now-finance-ur-child-future{
+    background-color: aqua;
+    height: 15vh;
+}
+.h1sec3{
+    padding-top: 0.5em;
+    font-size: 40px;
+
+    text-align: center;
+}
+.h2sec3{
+   text-align: center;
+padding-top: 1em;
+}
+.how-does-school-fee-work{
+background-color: white;
+}
+.h1-2sec4{
+    font-size: 70px;
+    padding-top: .5em;
+    padding-left: 4em;
+}
+.sec4-a{
+    color: aqua;
+    
+}
+.containerfee{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.fourththimg{
+    flex-basis: 40%;
+   margin-left: 1em;
+}
+.text11{
+    font-size: 30px;
+    padding-right: 20px;
+    padding-bottom: 6em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+}
+.image{
+    flex-basis: 50%;
+}
+.text{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.advantage{
+    width: 100%;
+    padding-top: .1em;
+}
+.btn-mid{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 40%;
+    padding: 1em 1em;
+    margin-left: 48%;
+}
+.btn-mid:hover{
+    text-decoration: underline;
+}
+figure.images {
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 30px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2C3447;
+    padding: 30px;
+    background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   display: inline-block;
+    
+  }
+  figure.images *,
+figure.images *:before,
+figure.images *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.images figcaption {
+  width: 100%;
+}
+figure.images h2,
+figure.imagesh4,
+figure.images    blockquote {
+  margin: 0;
+}
+figure.images h2,
+figure.simages h4 {
+  font-weight: 300;
+}
+figure.images h2 {
+  color: #ffffff;
+}
+figure.images h4 {
+  color: #a6a6a6;
+}
+figure.images blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.images blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.images .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+
+/*image down*/
+.logodown{
+    width: 40%;
+    padding-top: 2em;
+}
+.final{
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: .3em;
+}
+.container2{
+    display: flex;
+    align-items:left;
+    justify-content: left;
+    background-color: aqua;
+    height: 25vh;
+}
+.text2{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.btn{
+    padding: 0.5em 2em;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 1em;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container3{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.pfooter{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+
+
+
+

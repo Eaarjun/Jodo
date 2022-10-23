@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+*{
+    body:0;
+    margin: 0;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    width: 35%;
+    gap: 2em;
+    margin-right: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation ul{
+        flex-direction: column;
+    }
+}
+
+.navigation ul li a{
+    color: black;
+    padding: 0 .5em;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    text-decoration: underline;
+}
+
+/*button*/
+.navigation ul li button{
+    padding: 0.5em 1em;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.logo{
+    width: 40%;
+}
+h1,h3{
+    text-align: center;
+    padding-top: .7em;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .about-jodo{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 60px;
+  }
+  .about-jodo a{
+    color: aqua;
+  }
+ .p{
+   text-align: center;
+   font-size: 20px;
+   padding-bottom: 2em;
+ }
+ .logodown{
+    width: 40%;
+    padding-top: 1em;
+ }
+ .container2{
+    display: flex;
+    align-items:left;
+    justify-content: left;
+    background-color: aqua;
+    height: 17vh;
+}
+.text{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.finalh4{
+    padding-left: 5em;
+}
+.btn{
+    padding: 0.5em 2em;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 1em;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+.container3{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.pfooter{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
